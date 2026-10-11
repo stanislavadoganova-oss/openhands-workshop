@@ -65,6 +65,17 @@ export const APPS: App[] = [
     publishedAt: "2026-10-05",
     popularity: 62,
   },
+  {
+    id: "stanislava-doganova",
+    name: "Consulting Stanislava Doganova",
+    domain: "linkedin.com/in/stanislava-doganova",
+    url: "https://www.linkedin.com/in/stanislava-doganova",
+    slogan: "Business Strategy for Creative Industries.",
+    icon: "/apps/stanislava-doganova-icon.svg",
+    card: "/apps/stanislava-doganova-card.svg",
+    publishedAt: "2026-10-11",
+    popularity: 50,
+  },
 ];
 
 export function getApps(): App[] {
